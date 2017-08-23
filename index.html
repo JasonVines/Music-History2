@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		  <meta charset="utf-8">
+		  <title>Music History</title>
+		  <link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>My Fantabulous Music Player</h1>
+		</header>
+
+		<nav>
+			<div id="navbar">
+				<ul>
+					<li><a href="#">View Music</a></li>
+					<li class="noUnderline">|</li>
+					<li><a href="addMusic.html">Add Music</a></li>
+					<li class="noUnderline">|</li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<form>
+			<div id="parameters">
+				<fieldset>
+					Song length:<br>
+					<input id="slider" class="borderFormat" type="range" min="0" max="10" value="5"><br>
+					Artist:<br>
+			        <select name="artist" id="artist">
+			          <option value="artist-options">Options</option>
+			          <option value="artist-options">Kid Rock</option>
+			          <option value="artist-options">Sheryl Crow</option>
+			          <option value="artist-options">The Beastie Boys</option>
+			          <option value="artist-options">The Who</option>
+			          <option value="artist-options">Van Halen</option>
+			          
+			        </select><br><br>
+			        Album:<br>
+			        <select name="album" id="album">
+			          <option value="album-options">Options</option>
+			          <option value="album-options">Born Free</option>
+			          <option value="album-options">Rebel Soul</option>
+			          <option value="album-options">C'mon, C'mon</option>
+			          <option value="album-options">Tuesday Night Music Club</option>
+			          <option value="album-options">Licensed To Ill</option>
+			          <option value="album-options">Ill Communication</option>
+			          <option value="album-options">The Who Sell Out</option>
+			          <option value="album-options">My Generation</option>
+			          <option value="album-options">1984</option>
+			          <option value="album-options">Diver Down</option>
+			        </select><br><br>
+			        Genre:<br>
+			        <label><input type="checkbox" name="genre" value="rock"">Rock&nbsp&nbsp</label>
+			        <label><input type="checkbox" name="genre" value="classical">Classical</label><br>
+			        <label><input type="checkbox" name="genre" value="pop"">Pop&nbsp&nbsp&nbsp&nbsp</label>
+			        <label><input type="checkbox" name="genre" value="jazz">Jazz</label><br>
+			        <label><input type="checkbox" name="genre" value="blues"">Blues&nbsp</label>
+			        <label><input type="checkbox" name="genre" value="hiphop">Hip Hop</label><br>
+					<input id="filter" type="submit" value="Filter">
+      			</fieldset>
+			</div>
+		</form>
+
+		<form>
+			<div id="songList">
+				<fieldset>
+					<header>CATT Boogie</header>
+						<ul>
+							<li>Kid Rock</li>
+							<li class="noUnderline">|</li>
+							<li>Rebel Soul</li>
+							<li class="noUnderline">|</li>
+							<li>Rock</li>
+						</ul>
+					<header>All I Wanna Do</header>
+						<ul>
+							<li>Sheryl Crow</li>
+							<li class="noUnderline">|</li>
+							<li>Tuesday Night Music Club</li>
+							<li class="noUnderline">|</li>
+							<li>Rock</li>
+						</ul>
+					<header>Sabotage</header>
+						<ul>
+							<li>The Beastie Boys</li>
+							<li class="noUnderline">|</li>
+							<li>Ill Communication</li>
+							<li class="noUnderline">|</li>
+							<li>Rap</li>
+						</ul>
+					<header>Hot for Teacher</header>
+						<ul>
+							<li>Van Halen</li>
+							<li class="noUnderline">|</li>
+							<li>1984</li>
+							<li class="noUnderline">|</li>
+							<li>Rock</li>
+						</ul>
+				</fieldset>
+			</div>
+		</form>
+
+	</body>
+</html>
