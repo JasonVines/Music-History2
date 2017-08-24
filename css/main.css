@@ -2,16 +2,30 @@
 GENERAL
 -----------------------*/
 
+html, body {
+	height: 100%;
+}
+
 body {
-	max-width: 711.5px;
-	min-width: 711.5px;
-	background: #d3d3d3;
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	font-size: 16px;
 	font-family: "Brush Script MT", cursive, sans-serif;
+	margin: 0;
+	height: auto;
+}
+
+#container {
+	max-width: 711.5px;
+	min-width: 711.5px;
 	margin: 10% auto;
 }
 
 header {
+	color: white;
 	text-align: center;
 	width: 100%
 }
@@ -171,6 +185,7 @@ ADD MUSIC
 	color: #8a97a0;
 	padding: 10px;
 	margin: 0;
+	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
@@ -181,4 +196,13 @@ ADD MUSIC
 	color: black;
 	padding-top: 7px;
 	padding-bottom: 13px;
+}
+
+#addMusic label {
+	color: black;
+	background-color: #FEFAC0;
+	padding: 0 14px 0 14px; 
+	border: solid black 2px;
+	border-radius: 10px;
+	margin: 0 5px 5px 0; 
 }
