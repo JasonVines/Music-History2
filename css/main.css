@@ -103,15 +103,18 @@ SONG DETAILS
 -----------------------*/
 
 #songList fieldset {
-	width: 94%;
+	width: 428.63px;
+	height: 340.60px;
 	background-color: #FEFAC0;
-	overflow: hidden;
+	overflow: auto;
 	border: solid black 2px;
 	padding: 0 14px 15px 14px;
-	/*padding-left: 14px;
-	padding-right: 14px;*/
 	border-radius: 10px;
 	margin: 0.5em 1em 1em 0.5em;
+}
+
+#songList fieldset::-webkit-scrollbar {
+	display: none;
 }
 
 #songList header {
